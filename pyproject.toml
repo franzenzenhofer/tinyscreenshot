@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tinyscreenshot"
-version = "0.1.0"
-description = "Token-frugal screenshots for AI agents. Capture, shrink, and hand them to Claude/GPT/Gemini at a fraction of the vision-token cost."
+version = "0.1.1"
+description = "Token-saving screenshots for Claude Code. Drop-in Claude skill + CLI: a default capture is ~540 vision tokens instead of ~2100, no information lost. Also works with GPT/Gemini."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }

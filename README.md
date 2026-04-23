@@ -1,7 +1,7 @@
 # tinyscreenshot
 
-> **Token-frugal screenshots for AI agents.**
-> Hand Claude / GPT / Gemini a screenshot that costs ~540 tokens instead of ~2100, without losing a single word of information.
+> **Token-saving screenshots — a Claude Code skill.**
+> A default capture costs ~540 vision tokens instead of ~2100. One `pipx install` gets you the CLI and a drop-in Claude Code skill. Also works with any vision-capable LLM (GPT, Gemini) — the savings come from fewer pixels, not a model-specific trick.
 
 <p align="center">
   <a href="https://github.com/franzenzenhofer/tinyscreenshot/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/franzenzenhofer/tinyscreenshot/ci.yml?branch=main&label=tests&logo=github"></a>

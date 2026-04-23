@@ -49,7 +49,7 @@ def _add_common_options(p: argparse.ArgumentParser) -> None:
 def _build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="tinyscreenshot",
-        description="Token-frugal screenshots for AI agents. "
+        description="Token-saving screenshots for Claude Code. "
                     "Outputs a small, readable image and prints ~N tokens it costs.",
     )
     p.add_argument("--version", action="version", version=f"tinyscreenshot {__version__}")
