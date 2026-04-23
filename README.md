@@ -26,12 +26,12 @@ That's `tinyscreenshot`.
 
 ## The same screen, four token budgets
 
-Each of these is a processed capture of the *exact same* Hacker News front page. Claude reads all four — but the last one costs 16× fewer tokens than the first.
+Each of these is a processed capture of the *exact same* Wikipedia article (three-column layout: table of contents on the left, article body in the centre, infobox on the right). Claude reads all four — but the last one costs 16× fewer tokens than the first.
 
 | 800 px · grey · **~533 t** | 640 px · grey · **~341 t** | 400 px · grey · **~133 t** | 200 px · mono · **~33 t** |
 |---|---|---|---|
 | ![800 grey](docs/images/demo-800-grey.png) | ![640 grey](docs/images/demo-640-grey.png) | ![400 grey](docs/images/demo-400-grey.png) | ![200 mono](docs/images/demo-200-mono.png) |
-| **Full legibility.** Every headline readable, every byline, every domain, every point count. Recommended default. | **Still fully readable.** Best sweet spot if you want the tiniest capture that still reads prose. | **Prose survives.** Headlines and bylines still readable; small chrome starts to blur. Great for "did the story appear?" checks. | **Presence only.** You can tell it's a list of items; no text. Perfect for "is the page still loading?" yes/no. |
+| **Full legibility.** Every ToC entry readable, full article prose, every infobox row (Paradigm, Designed by, First appeared, Stable release, Typing discipline). Recommended default. | **Still fully readable.** Best sweet spot if you want the tiniest capture that still reads prose and sidebar labels. | **Prose survives.** Article body + headings still readable; fine-print references and settings panel start to blur. Great for "did the content load?" checks. | **Layout only.** Three-column structure visible, no text. Perfect for "is the right panel open?" yes/no. |
 
 > At every size, **color mode does not affect token cost** — only pixel count does. `grey` costs the same as `color` but stays crisper after resize.
 
