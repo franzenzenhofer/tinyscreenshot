@@ -12,7 +12,11 @@ from dataclasses import dataclass
 
 from PIL import Image
 
+from tinyscreenshot._macos_compat import ensure_mac_ver
 from tinyscreenshot.platform_capture import capture_app, capture_interactive, capture_window
+
+# mss reads platform.mac_ver() at capture time; make sure it is not empty.
+ensure_mac_ver()
 
 
 @dataclass

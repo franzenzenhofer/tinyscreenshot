@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tinyscreenshot"
-version = "0.1.1"
+version = "0.1.2"
 description = "Token-saving screenshots for Claude Code. Drop-in Claude skill + CLI: a default capture is ~540 vision tokens instead of ~2100, no information lost. Also works with GPT/Gemini."
 readme = "README.md"
 requires-python = ">=3.9"
